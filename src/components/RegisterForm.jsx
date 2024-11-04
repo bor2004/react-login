@@ -32,7 +32,6 @@ function RegisterForm() {
         email: email,
         password: password,
       });
-
       setMessage('Registration successful! Redirecting to login...');
       setTimeout(() => navigate('/'), 2000);
     } catch (error) {
@@ -40,7 +39,6 @@ function RegisterForm() {
       console.error(error);
     }
   };
-
   return (
     <div>
       <h2>Register</h2>
@@ -69,5 +67,4 @@ function RegisterForm() {
     </div>
   );
 }
-
 export default RegisterForm;
