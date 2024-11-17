@@ -29,6 +29,11 @@
       "id": "cec4",
       "email": "mamoni.debolina@gmail.com",
       "password": "Vidyasagar"
+    },
+    {
+      "id": "8c24",
+      "email": "bornini@gmail.com",
+      "password": "pass123$"
     }
   ]
 }
